@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- CardViewStyle -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text">32sp</dimen>
+    <dimen name="text_min">16sp</dimen>
+    <dimen name="text_med">22sp</dimen>
+    <dimen name="wim">120dp</dimen>
+    <dimen name="him">88dp</dimen>
+    <dimen name="wimn">120dp</dimen>
+    <dimen name="himn">88dp</dimen>
+    <dimen name="marg">24dp</dimen>
+
+</resources>

@@ -1,0 +1,39 @@
+
+<tv>
+
+    <group name="Фильмы" id="1">
+
+        <channel name="ТВ3" id="1" file="http://gorod.tv/s/live/12/134.249.65.172/0/0.m3u8" idd="279" ></channel>
+        <channel name="TV XXI" id="2" file="http://live-cdne13.cdnvideo.ru/cdne13/cdne13.sdp/chunklist.m3u8" idd="309"  ></channel>
+        <channel name="Дом кино премиум HD" id="3" file="http://198.16.64.45:8081/dom_prem/index.m3u8?wmsAuthSign=1554944148S97c37d94dced918967475042e6403577S612h222h801h77" idd="146"></channel>
+        <channel name="Дом кино" id="4" file="http://50.7.180.53:8081/domkino/index.m3u8?wmsAuthSign=1554945041S96c7e8facb1a481b4be68c369287c061S612h222h801h77" idd="834"></channel>
+
+    </group>
+    <group name="Общественные" id="2">
+
+       <channel name="Первый Канал HD" id="983" file="http://91.90.253.66:8080/CH112_std/tracks-v1a1/index.m3u8" idd="983"/>
+        <channel name="Первый Канал" id="146" file="http://gorod.tv/s/live/1/0.0.0.0/0/0.m3u8" idd="146"/>
+        <channel name="Россия 1" id="317" file="http://46.32.64.42/s/live/2/86.169.51.136/1/0.m3u8" idd="317"/>
+        <channel name="Россия РТР" id="711" file="http://ott-cdn.ucom.am/s15/index.m3u8" idd="711"/>
+        <channel name="НТВ мир" id="-1" file="http://ott-cdn.ucom.am/s17/index.m3u8" idd="162"/>
+
+    </group>
+    <group name="Развлекательные каналы" id="3">
+    </group>
+    <group name="Детские каналы" id="4">
+    </group>
+    <group name="Музыкальные каналы" id="5">
+    </group>
+    <group name="Информационные каналы" id="6">
+    </group>
+    <group name="Познавательные каналы" id="7">
+    </group>
+    <group name="Спорт" id="8">
+    </group>
+    <group name="ТВ Шоп" id="9">
+    </group>
+    <group name="Религия" id="10">
+    </group>
+    <group name="Региональные каналы" id="11">
+    </group>
+</tv>

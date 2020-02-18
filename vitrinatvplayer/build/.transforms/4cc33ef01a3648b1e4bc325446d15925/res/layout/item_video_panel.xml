@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemRootView"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    android:layout_height="90dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:descendantFocusability="blocksDescendants"
+    android:background="#aaa"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/previewImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/translucent_black_40_percent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/black_gradient"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:text="Выпуск новостей от 02 июля за 15:00 про колбасу" />
+
+    <TextView
+        android:id="@+id/durationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="8dp"
+        android:background="@drawable/background_duration"
+        android:paddingBottom="2dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="2dp"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        tools:text="21:00" />
+</FrameLayout>

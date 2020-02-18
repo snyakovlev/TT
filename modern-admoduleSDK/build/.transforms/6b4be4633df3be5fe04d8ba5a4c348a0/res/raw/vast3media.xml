@@ -1,0 +1,177 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="6831963-22981424">
+        <InLine>
+            <AdSystem>Adverising Technology Mail.ru Group for СТС Media</AdSystem>
+            <Description/>
+            <Advertiser/>
+            <Pricing/>
+            <Survey/>
+            <Error>
+                <![CDATA[
+                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB1A8QurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                ]]>
+            </Error>
+            <Impression id="comScore">
+                <![CDATA[ ]]>
+            </Impression>
+            <Impression id="mailru">
+                <![CDATA[
+                    http://rs.mail.ru/pixel/CisIsNb6CkjxAhC6uMxcHZT_41coBKABrOPCiQi4AUaQA6zjwolI8gID4AMB.gif
+                ]]>
+            </Impression>
+            <Creatives>
+                <Creative id="6831963" sequence="" AdID="22981424">
+                    <Linear>
+                        <AdParameters/>
+                        <Duration>00:00:25</Duration>
+                        <MediaFiles>
+                            <MediaFile id="1" delivery="streaming" type="video/mp4" bitrate="1546" width="640" height="360" codec="h264">
+                                <![CDATA[ http://r.mradx.net/img/D6/9ABCF4.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile id="2" delivery="streaming" type="video/mp4" bitrate="2463" width="1280" height="720" codec="h264">
+                                <![CDATA[ http://r.mradx.net/img/73/9597CC.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile id="3" delivery="streaming" type="video/mp4" bitrate="2444" width="1920" height="1080" codec="h264">
+                                <![CDATA[ http://r.mradx.net/img/13/C087FD.mp4 ]]>
+                            </MediaFile>
+                        </MediaFiles>
+                        <TrackingEvents>
+                            <Tracking event="creativeView">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB0Q8QurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="start">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB6AcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB6QcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB6gcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB6wcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB7AcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="mute">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB7QcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB7gcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="pause">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB7wcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB8QcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="fullscreen">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB8gcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="exitFullscreen">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB8wcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="close">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB9AcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="acceptInvitation">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB1Q8QurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="expand">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB0w8QurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                            <Tracking event="collapse">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB1A8QurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[ [rblink][/rblink] ]]>
+                            </ClickThrough>
+                            <ClickTracking id="event Mail.ru">
+                                <![CDATA[
+                                    http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB8AcQurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                                ]]>
+                            </ClickTracking>
+                            <CustomClick/>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="startTime">00:00</Extension>
+                <Extension type="skipTime">00:05</Extension>
+                <Extension type="skipTime2">00:05</Extension>
+                <Extension type="controls">
+                    <![CDATA[ 1 ]]>
+                </Extension>
+                <Extension type="skipAd">
+                    <![CDATA[
+                        http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB1w8QurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                    ]]>
+                </Extension>
+                <Extension type="addClick">
+                    <![CDATA[
+                        http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB2A8QurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                    ]]>
+                </Extension>
+                <Extension type="linkTxt">
+                    <![CDATA[
+                        &#1087;&#1077;&#1088;&#1077;&#1081;&#1090;&#1080; &#1085;&#1072; &#1089;&#1072;&#1081;&#1090; &#1088;&#1077;&#1082;&#1083;&#1072;&#1084;&#1086;&#1076;&#1072;&#1090;&#1077;&#1083;&#1103;
+                    ]]>
+                </Extension>
+                <Extension type="isClickable">
+                    <![CDATA[ 1 ]]>
+                </Extension>
+                <Extension type="Allowblock">1</Extension>
+                <Extension type="closeAct">
+                    <![CDATA[ no ]]>
+                </Extension>
+                <Extension type="fiveSecondPoint">
+                    <![CDATA[
+                        http://rs.mail.ru/pixel/CjIIsNb6CkjxAsABCsgB2Q8QurjMXB2U_-NXKASgAazjwokIuAFGkAOs48KJSPICA-ADAQ.gif
+                    ]]>
+                </Extension>
+                <Extension type="exclusive">
+                    <![CDATA[ 0 ]]>
+                </Extension>
+                <Extension type="rbcompanion">
+                    <![CDATA[ ]]>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>

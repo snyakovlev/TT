@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_tablet">false</bool>
+    <color name="accent">#f50057</color>
+    <color name="ad_video_progress">#f5c426</color>
+    <color name="gray_10">#e6e6e6</color>
+    <color name="primary_dark">#245296</color>
+    <color name="primary_text">#1A1A1A</color>
+    <color name="secondary_text">#333333</color>
+    <color name="translucent_black_25_percent">#40000000</color>
+    <color name="translucent_black_40_percent">#66000000</color>
+    <color name="translucent_black_50_percent">#80000000</color>
+    <color name="translucent_primary_dark_50_percent">#80245296</color>
+    <color name="transparent">#00000000</color>
+    <color name="video_shadow">@color/translucent_black_40_percent</color>
+    <color name="white">#ffff</color>
+    <color name="window_background">@color/gray_10</color>
+    <dimen name="blackout_message_text_size">20sp</dimen>
+    <dimen name="padding_bottom_debug">92dp</dimen>
+    <dimen name="padding_debug_info">12dp</dimen>
+    <dimen name="video_panel_height">62dp</dimen>
+    <dimen name="video_play_button_size">56dp</dimen>
+    <dimen name="video_progress_height">4dp</dimen>
+    <dimen name="video_thumb_offset">14dp</dimen>
+    <dimen name="video_thumb_size">28dp</dimen>
+    <string name="app_name">VitrinaTVPlayer</string>
+    <string name="base_activity_dialog_ok">Ок</string>
+    <string name="blackout_message">Просмотр трансляции запрещен</string>
+    <string name="error_drm_not_supported">DRM не поддерживается на вашем устройстве</string>
+    <string name="error_drm_unknown">DRM: проблема сервиса</string>
+    <string name="error_drm_unsupported_scheme">DRM схема не поддерживается</string>
+    <string name="loading_error_message">Ошибка при загрузке данных</string>
+    <string name="network_error_message">Нет подключения к сети Интернет</string>
+    <string name="proxy_type_block_message">Воспроизведение видео в вашей сети запрещено</string>
+    <string name="proxy_type_dialog_title">Ошибка прокси</string>
+    <string name="proxy_type_error_message">Ошибка проверки прокси</string>
+    <string name="quality_auto">Автоматическое</string>
+    <string name="quality_cancel">Отмена</string>
+    <string name="quality_high">Высокое</string>
+    <string name="quality_low">Низкое</string>
+    <string name="quality_medium">Среднее</string>
+    <string name="quality_ok">Применить</string>
+    <string name="quality_title">Качество</string>
+    <string name="remote_config_error_text">Ошибка конфигурации плеера</string>
+    <string name="remote_config_error_title">Неверная конфигурация</string>
+    <string name="video_advert_label">Реклама</string>
+    <string name="video_click_through_button"><u>Перейти на сайт рекламодателя</u></string>
+    <string name="video_close_button_text">X</string>
+    <string name="video_debug_ad_id_message">ID рекламного ролика: %s</string>
+    <string name="video_debug_timeline_message">Временная метка потока: %s</string>
+    <string name="video_exit_button">Выйти</string>
+    <string name="video_live_stream_error_text">Не удается воспроизвести видео прямого вещания.</string>
+    <string name="video_live_stream_error_title">Ошибка прямого вещания</string>
+    <string name="video_network_error_text">Проверьте подключение к сети Интернет и повторите попытку воспроизведения.</string>
+    <string name="video_network_error_title">Нет сети</string>
+    <string name="video_retry_button">Повторить</string>
+    <string name="video_skip_button_text">Пропустить рекламу</string>
+    <string name="video_skip_label">Рекламу можно будет\nпропустить через %1$s</string>
+    <style name="AdvertButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">34dp</item>
+        <item name="android:background">@drawable/translucent_black_button_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="BlackoutDefaultMessageTheme">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/blackout_message_text_size</item>
+    </style>
+    <style name="CustomCheck" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:textColor">@color/quality_check_color_text</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@drawable/custom_check_button</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="WelcomeProgressBarTheme">
+        <item name="colorAccent">@color/white</item>
+    </style>
+</resources>

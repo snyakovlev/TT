@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+
+
+android {
+
+
+    signingConfigs {
+        config {
+            keyAlias 'sereja11051983'
+            keyPassword 'sereja11051983'
+            storeFile file('C:/keys.jks')
+            storePassword 'sereja11051983'
+        }
+    }
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "ru.television.online"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 25
+        versionName "2.6.2"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+
+dependencies {
+
+    implementation project(':admoduleSDK')
+    implementation project(':vitrinatvplayer')
+    implementation project(':modern-admoduleSDK')
+
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'commons-net:commons-net:20030805.205232'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation 'ru.vitrina:exoplayer-core:2.9.6.2'
+    implementation 'ru.vitrina:exoplayer-dash:2.9.6.2'
+    implementation 'ru.vitrina:exoplayer-hls:2.9.6.2'
+    implementation 'ru.vitrina:exoplayer-ui:2.9.6.2'
+    implementation 'ru.vitrina:extension-leanback:2.9.6.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
+
+    implementation 'com.google.android.gms:play-services-ads:18.3.0'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+
+ implementation 'com.github.horovodovodo4ka.kodable:core:1.2.+'
+    implementation 'com.github.pwittchen:prefser:2.1.0'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50'
+
+    implementation 'com.google.android.exoplayer:exoplayer:2.9.5'
+
+
+    //  annotationProcessor ("com.github.horovodovodo4ka.kodable:processor:1.2.+")
+    implementation 'com.github.pwittchen:prefser:2.1.0'
+    implementation 'com.yandex.android:mobmetricalib:3.6.4'
+    implementation 'com.yandex.android:mobileads:2.100'
+
+    //  implementation 'org.videolan.libvlc:libvlc:2.5.5'
+    // implementation 'com.google.android.exoplayer:exoplayer:2.9.6'
+    implementation 'androidx.leanback:leanback:1.0.0'
+}

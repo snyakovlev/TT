@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/window_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fmd_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="24dp"
+        android:singleLine="true"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp"
+        tools:text="Заголовок" />
+
+    <View
+        android:id="@+id/topDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/fmd_title"
+        android:background="@color/translucent_black_25_percent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomDivider"
+        android:layout_below="@+id/topDivider">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkQualityAuto"
+                style="@style/CustomCheck"
+                android:text="@string/quality_auto" />
+
+            <CheckBox
+                android:id="@+id/checkQualityHigh"
+                style="@style/CustomCheck"
+                android:text="@string/quality_high" />
+
+            <CheckBox
+                android:id="@+id/checkQualityMedium"
+                style="@style/CustomCheck"
+                android:text="@string/quality_medium" />
+
+            <CheckBox
+                android:id="@+id/checkQualityLow"
+                style="@style/CustomCheck"
+                android:text="@string/quality_low" />
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/bottomDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/buttonLayout"
+        android:background="@color/translucent_black_25_percent" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/cancel_action"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:layout_marginRight="8dp"
+            android:text="@string/quality_cancel"
+            android:textColor="@color/accent" />
+
+        <Button
+            android:id="@+id/positive_action"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:text="@string/quality_ok"
+            android:textColor="@color/accent" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true"/>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">yasnstudio.moscow</domain>
+        <domain includeSubdomains="true">a3569458063-s26881.cdn.ngenix.net</domain>
+        <domain includeSubdomains="true">serv30.vintera.tv</domain>
+        <domain includeSubdomains="true">gorod.tv</domain>
+        <domain includeSubdomains="true">ott-cdn.ucom.am</domain>
+        <domain includeSubdomains="true">46.32.64.42</domain>
+        <domain includeSubdomains="true">tvc-hls.cdnvideo.ru</domain>
+        <domain includeSubdomains="true">live-otronline.cdnvideo.ru</domain>
+        <domain includeSubdomains="true">tvzvezda.bonus-tv.ru</domain>
+        <domain includeSubdomains="true">hls.mirtv.cdnvideo.ru</domain>
+        <domain includeSubdomains="true">programtv.ru</domain>
+    </domain-config>
+
+</network-security-config>

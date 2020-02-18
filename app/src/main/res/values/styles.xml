@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <!-- CardView -->
+
+
+    <style name="ExoMediaButton.Sett">
+        <item name="android:src">@drawable/sett</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style>
+
+    <style name="ExoMediaButton.M">
+        <item name="android:src">@drawable/m</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style>
+
+
+    <!-- CardView -->
+
+
+    <style name="AppThemeTV" parent="Theme.Leanback">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="imageCardViewStyle">@style/MyImageCardViewStyle</item>
+        <item name="headerStyle">@style/MyHeaderStyle</item>
+        <item name="rowHeaderStyle">@style/MyHeaderStyle</item>
+    </style>
+
+    <style name="MyImageCardViewStyle" parent="@style/Widget.Leanback.ImageCardViewStyle">
+        <item name="cardType">infoUnderWithExtra</item>
+        <item name="infoAreaBackground">@color/primary_dark</item>
+
+    </style>
+
+    <style name="MyHeaderStyle" parent="@style/Widget.Leanback.Header" >
+        <item name="android:textAppearance">@style/MyHeaderStyle.MyHeaderText</item>
+
+    </style>
+
+    <style name="MyHeaderStyle.MyHeaderText" parent="TextAppearance.Leanback.Header">
+        <item name="android:textSize">@dimen/lb_browse_header_text_size</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+</resources>
